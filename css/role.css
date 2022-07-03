@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+.Role-img-tu {
+    display: block;
+    margin-bottom: 0px;
+    background: url(../image/newsbg.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.footerster {
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+}
+
+.footer {
+    top: 0px;
+    width: 2000px;
+    height: 193px;
+    background-color: #000;
+}
+
+.fooer {
+    background-color: #111;
+    width: 100%;
+    height: 35px;
+    margin-top: -4px;
+}
+
+.select_div {
+    width: 100vm;
+    height: 20vh;
+    background: rgba(255, 255, 255, .3);
+} */
+
+body {
+    background-image: url(../image/OfficialWebsite/主页背景.jpg);
+    block-size: cover;
+    padding: 0px;
+    margin: 0px;
+    /* background-attachment: fixed; */
+}
+
+.select_div {
+    width: 105%;
+    height: 18.6vh;
+    background: rgba(255, 255, 255, .3);
+    position: absolute;
+    top: 71vh;
+    text-align: center;
+    line-height: 19vh;
+    z-index: 3;
+}
+
+.left_arrow,
+.right_arrow {
+    width: 48px;
+    height: 54px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.avartar {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(6, 6, 6, .5);
+    margin: 0px 20px;
+    box-sizing: border-box;
+}
+
+.intro_div {
+    width: 550px;
+    height: 113px;
+    background: rgba(1, 1, 1, .5);
+    position: absolute;
+    top: 36%;
+    left: 19%;
+    z-index: 3;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.role_div {
+    width: 50vw;
+    height: calc(100vh - 100px);
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 20%;
+    z-index: 2;
+}
+
+.role_div img {
+    height: 100%;
+}
+
+.imgq {
+    z-index: 5;
+}
+
+.avartar:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px gold;
+}
+
+.selected {
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px gold;
+}

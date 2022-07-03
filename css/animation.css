@@ -1,0 +1,302 @@
+/* .an-bJ {
+    background-image: url(../image/newsimg/34070c6.jpg);
+    width: 1900px;
+    height: 640px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(192, 224, 228);
+}
+
+.imgq {
+    position: absolute;
+    background-size: cover;
+}
+
+.swiper {
+    position: relative;
+    left: -140px;
+    width: 640px;
+    height: 400px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(38, 18, 12, 0.62);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    height: 18px;
+    width: 18px;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+    width: 304px;
+    height: 170px;
+    float: left;
+    margin-left: 18px;
+    border: solid 1px black;
+    margin-bottom: 15px;
+}
+
+li:hover {
+    opacity: 0.75;
+    transition: all 0.5s 0s ease;
+    border-radius: 15px;
+}
+
+li:hover p {
+    opacity: 0.75;
+    transition: all 0.5s 0s ease;
+    border-radius: 18px;
+}
+
+
+/* .CLone ul li a p:active {
+    background-color: rgb(192, 215, 224);
+    color: #17B8ED;
+} */
+
+.CLone li:active p {
+    background-color: rgb(192, 215, 224);
+    color: #17B8ED;
+}
+
+.CLone a {
+    display: block;
+    width: 304px;
+    height: 170px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.CLone a p {
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    color: aliceblue;
+    width: 304px;
+    height: 36px;
+    background-color: rgba(56, 54, 53, 0.7);
+    line-height: 36px;
+}
+
+.CLone {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footersterl {
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 2000px;
+}
+
+.fooer {
+    /* position: relative; */
+    top: 590px;
+    width: 2000px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.an-bJ {
+    position: relative;
+}
+
+.BIAO-TI {
+    width: 688px;
+    height: 315px;
+    position: absolute;
+    top: 250px;
+    left: 270px;
+}
+
+.BIAO-TI .ponj {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.BIAO-TI p {
+    padding-top: 5px;
+    font-weight: bold;
+    margin-left: 41px;
+}
+
+.AN-NI {
+    margin-left: 41px;
+}
+
+.AN-NI button {
+    width: 175px;
+    background-color: #17B8ED;
+    border: 0 solid;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.AN-NI button a {
+    width: 175px;
+    display: block;
+    line-height: 35px;
+    color: rgba(247, 247, 247, 0.842);
+    font-size: 15px;
+}
+
+.AN-NI #btn2 {
+    background-color: #1F353D;
+}
+
+
+/* .BIAO-TI:hover {
+    opacity: 0.75;
+    transition: all 0.5s 0s ease;
+    border-radius: 15px;
+    background-color: rgb(188, 235, 255);
+} */
+
+.AN-NI button:hover {
+    opacity: 0.75;
+    transition: all 0.5s 0s ease;
+    border-radius: 15px;
+    background-color: rgb(57, 184, 238);
+}
+
+button a:active {
+    color: rgb(236, 168, 67);
+    font-weight: 700px;
+    font-size: 16px;
+}
+
+.BIAO-TI:hover {
+    opacity: 0.75;
+    transition: all 0.5s 0s ease;
+    border-radius: 46px;
+    background: #C0E0E4;
+    box-shadow: 23px 23px 46px #f3f3f3, -23px -23px 46px #daffff;
+}
+
+.S-jiao {
+    width: 0px;
+    height: 0px;
+    border: 9px solid red;
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-color: transparent;
+    border-left-color: green;
+    border-right-color: blue;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    margin-left: 66px;
+}
+
+.NE-BU {
+    width: 155px;
+    height: 116px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5px;
+}
+
+.big {
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    opacity: 0;
+}
+
+.NE-BU img {
+    width: 126px;
+    height: 72px;
+    margin-top: 5px;
+}
+
+.NE-BU a {
+    color: rgba(15, 15, 15, 0.959);
+}
+
+.AN-NI:hover+.big {
+    opacity: 1;
+}
+
+
+/* 视频 */
+
+.an-bJ {
+    position: relative;
+}
+
+#btn2 {
+    height: 40px;
+    width: 175px;
+    background-color: #17B8ED;
+    border: 0 solid;
+    border-radius: 5px;
+    color: #f3f3f3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#btn2:hover {
+    opacity: 0.75;
+    transition: all 0.5s 0s ease;
+    border-radius: 15px;
+    background-color: rgb(57, 184, 238);
+}
+
+.shiphaha {
+    position: absolute;
+    top: 220px;
+    right: 620px;
+    z-index: 12;
+    display: none;
+}
+
+.Bc {
+    position: absolute;
+    width: 1920px;
+    height: 1950px;
+    background-color: rgb(24, 23, 23);
+    z-index: 12;
+    opacity: 0.8;
+    display: none;
+}
+
+#wzx {
+    position: absolute;
+    z-index: 19;
+    opacity: 0.8;
+    top: 220px;
+    left: 1233px;
+    opacity: 0;
+}
+
+.po {
+    position: absolute;
+    z-index: 14;
+    opacity: 0.8;
+    top: 220px;
+    left: 1233px;
+    display: none;
+    cursor: pointer;
+}
+
+
+/* 结束 */
